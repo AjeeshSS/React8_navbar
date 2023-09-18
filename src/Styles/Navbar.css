@@ -1,0 +1,121 @@
+.Navbar .header {
+    height: 70px;
+    width: 100%;
+    background-color: #16563c;
+}
+
+.Navbar .header ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.Navbar .header ul .brand {
+    color: antiquewhite;
+    position: absolute;
+    left: 20px;
+    top: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+}
+
+.Navbar .header ul .lists {
+    position: absolute;
+    right: 30px;
+    top: 8px;
+}
+
+.Navbar .header ul .lists .list {
+    padding: 20px;
+
+}
+
+.Navbar .header ul .lists .list a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Navbar .header ul .lists .list a:hover {
+    color: rgb(214, 119, 98);
+}
+
+.Navbar .header ul span {
+    color: antiquewhite;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    display: none;
+}
+
+/* after button click  */
+
+.Navbar .header1 {
+    height: 350px;
+    width: 100%;
+    background-color: #16563c;
+    transition: 1s ease;
+}
+
+.Navbar .header1 ul li {
+    list-style-type: none;
+    display: list-item;
+}
+
+.Navbar .header1 ul .brand1 {
+    color: antiquewhite;
+    position: absolute;
+    left: 20px;
+    top: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+}
+
+.Navbar .header1 ul .lists1 {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+.Navbar .header1 ul .lists1 .list1 {
+    padding-top: 25px;
+}
+
+.Navbar .header1 ul .lists1 .list1 a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Navbar .header1 ul .lists1 .list1 a:hover {
+    color: rgb(214, 119, 98);
+}
+
+.Navbar .header1 ul span {
+    color: antiquewhite;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 20px;
+    top: 28px;
+}
+
+@media(max-width : 700px) {
+    
+    .Navbar .header ul .lists {
+        display: none;
+    }
+
+    .Navbar .header ul span {
+        color: antiquewhite;
+        font-size: 1.2rem;
+        position: absolute;
+        right: 20px;
+        top: 28px;
+        display: block;
+    }
+
+}
